@@ -83,9 +83,8 @@
 # 📊 GitHub Stats:
 
 ![](https://github-readme-stats.vercel.app/api?username=S-PANDIYAN&theme=radical&hide_border=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=S-PANDIYAN&theme=radical&hide_border=false)<br/>
+![](https://streak-stats.demolab.com?user=S-PANDIYAN&theme=radical)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=S-PANDIYAN&theme=radical&layout=compact)
 
 ![](https://komarev.com/ghpvc/?username=S-PANDIYAN)
 
-can make changes with horizontal in tech stack

@@ -1,89 +1,91 @@
-<h1 align="center">👋 Hello World, I'm Pandiyan!</h1>
-<h3 align="center">🚀 AI/ML Engineer | Python Enthusiast | Data & Automation Explorer</h3>
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTE5ejVoYm5zYWNrY2V6c3d0Y2FyZTZvZW5mMHF3OGttcWhseG5iYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MD0svLSDeudszrNrp0/giphy.gif" width="100%" />
+
+<h1 align="center">Hi 👋, I'm Pandiyan S</h1>
+<h3 align="center">Aspiring Machine Learning Engineer | AI & RAG Enthusiast</h3>
+
+<img align="right" alt="Coding" width="335" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+
+- 🔭 I’m an **AI & Machine Learning Student (B.Tech)**  
+
+- 🌱 I’m currently learning **LLMs, Generative AI, and System Design**  
+
+- 💬 Ask me about **Machine Learning, RAG, NLP, and AI Systems**  
+
+- 📫 How to reach me **pandiyanshanmugam3105@gmail.com**  
+
+- ⚡ I build **AI-powered applications with real-world impact**  
 
 ---
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00F700&center=true&vCenter=true&width=435&lines=Welcome+to+my+GitHub+profile!;AI+%26+Machine+Learning+Engineer;Python+Developer+%7C+SQL+Expert;Let's+build+something+intelligent+%F0%9F%9A%80" alt="Typing SVG" />
-</div>
-
----
-
-## 🧠 About Me
-
-<p align="center">
-  I'm <strong>Pandiyan</strong>, an AI/ML Engineer with a strong foundation in Python, data science, machine learning, and backend tools. I enjoy working with data to build intelligent solutions that solve real-world challenges.<br><br>
-  I have experience with machine learning models, data pipelines, SQL databases, and cloud tools. I’m passionate about learning new technologies, automating tasks, and turning complex ideas into efficient systems.
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+  <a href="https://github.com/S-PANDIYAN" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" height="30" width="40" />
+  </a>&nbsp;
+  <a href="https://linkedin.com/in/pandiyan-s" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" />
+  </a>&nbsp;
+  <a href="https://leetcode.com/u/PandiyanML/" target="_blank">
+    <img align="center" src="https://cdn-icons-png.flaticon.com/512/2721/2721291.png" height="30" width="30" />
+  </a>
 </p>
 
 ---
 
-## 🚀 Tech Stack
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="50" alt="Python" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="50" alt="Django" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="50" alt="Flask" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="50" alt="MySQL" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="50" alt="PostgreSQL" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="50" alt="MongoDB" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="50" alt="Git" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="50" alt="Linux" />
-</div>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=S-PANDIYAN&show_icons=true&theme=tokyonight&hide_border=false" height="180" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=S-PANDIYAN&theme=tokyonight&hide_border=false" height="180" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=S-PANDIYAN&layout=compact&theme=tokyonight&hide_border=false&langs_count=8" height="180" />
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=S-PANDIYAN&theme=react-dark&area=true&hide_border=false" />
-</div>
-
----
-
-## 🛠️ Tools & Libraries I Use
-
-| Category        | Tools/Technologies |
-|----------------|--------------------|
-| Programming    | Python, Bash, SQL  |
-| ML/AI          | NumPy, Pandas, scikit-learn, TensorFlow, OpenCV |
-| Web Frameworks | Flask, Django      |
-| Databases      | MySQL, PostgreSQL, MongoDB |
-| Others         | Git, Linux, VS Code, Jupyter Notebooks |
-
----
-
-## 🌐 Connect With Me
-
-<div align="center">
-  <a href="mailto:your-email@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://your-portfolio.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-</div>
-
----
-
-## 💡 Quote of the Day
+# 💻 Tech Stack:
 
 <p align="center">
-  <i>"The best way to predict the future is to invent it." – Alan Kay</i>
+
+<img src="https://img.shields.io/badge/python-%23013243.svg?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white"/>
+<img src="https://img.shields.io/badge/fastapi-%23009688.svg?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/tensorflow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/pgvector-%2300A67E.svg?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/mongodb-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/RAG-%23007ACC.svg?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LLMs-%23000000.svg?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/NLP-%234B8BBE.svg?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
+
 </p>
+
+---
+
+<h3 align="center">📊 Statistics</h3>
+
+<div align="center">
+  <a href="https://github.com/S-PANDIYAN">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=S-PANDIYAN&theme=2077" height="180em" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=S-PANDIYAN&theme=2077" height="180em" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=S-PANDIYAN&theme=2077" height="180em" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=S-PANDIYAN&theme=2077" height="180em" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=S-PANDIYAN&theme=2077" height="180em" />
+  </a>
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+---
+
+<h2 align="left">⚡ Activity Graph</h2>
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=S-PANDIYAN&theme=react-dark" />
+</div>
+
+---
+
+# 📊 GitHub Stats:
+
+![](https://github-readme-stats.vercel.app/api?username=S-PANDIYAN&theme=radical&hide_border=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=S-PANDIYAN&theme=radical&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=S-PANDIYAN&theme=radical&layout=compact)
+
+![](https://komarev.com/ghpvc/?username=S-PANDIYAN)
+
+can make changes with horizontal in tech stack

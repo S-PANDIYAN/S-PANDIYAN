@@ -22,10 +22,10 @@
   <a href="https://github.com/S-PANDIYAN" target="_blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" height="30" width="40" />
   </a>&nbsp;
-  <a href="https://linkedin.com/in/pandiyan-s" target="_blank">
+  <a href="https://www.linkedin.com/in/pandiyan-s-947239293/" target="_blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" />
   </a>&nbsp;
-  <a href="https://leetcode.com/u/PandiyanML/" target="_blank">
+  <a href="https://leetcode.com/u/Pandiyan_ML/" target="_blank">
     <img align="center" src="https://cdn-icons-png.flaticon.com/512/2721/2721291.png" height="30" width="30" />
   </a>
 </p>

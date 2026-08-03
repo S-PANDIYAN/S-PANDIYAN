@@ -1,6 +1,10 @@
 <!-- ====== HERO · custom hand-authored animated SVG (RAG pipeline profile) ====== -->
+<!-- auto-matches the viewer's GitHub theme: dark theme -> dark.svg, light theme -> light.svg -->
 <a href="https://github.com/S-PANDIYAN">
-  <img alt="Pandiyan S — Machine Learning Engineer" src="https://raw.githubusercontent.com/S-PANDIYAN/S-PANDIYAN/main/assets/light.svg" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/S-PANDIYAN/S-PANDIYAN/main/assets/dark.svg">
+    <img alt="Pandiyan S — Machine Learning Engineer" src="https://raw.githubusercontent.com/S-PANDIYAN/S-PANDIYAN/main/assets/light.svg" width="100%">
+  </picture>
 </a>
 
 <!-- ====== LINKS ====== -->
@@ -13,104 +17,79 @@
 
 ---
 
-## 🧬 About Me
+## About
+
+B.Tech student in AI &amp; Machine Learning, focused on building
+retrieval-augmented and generative systems that actually ship — grounded
+answers, real latency budgets, real data, not just notebooks.
+
+Most of my work lately lives around RAG: getting retrieval quality high
+enough that an LLM can answer from your data with citations you can trust.
+I care about the unglamorous parts — chunking strategy, vector search,
+prompt construction, and keeping the whole loop fast enough to feel like a
+conversation.
 
 ```python
 class Pandiyan:
-    def __init__(self):
-        self.role         = "AI & Machine Learning Student (B.Tech)"
-        self.focus        = ["LLMs", "Generative AI", "RAG", "System Design"]
-        self.currently    = "Building AI-powered apps with real-world impact"
-        self.ask_me_about = ["Machine Learning", "RAG", "NLP", "AI Systems"]
-        self.fun_fact     = "I turn coffee + data into intelligent systems ☕→🤖"
-
-    def life_motto(self):
-        return "Learn relentlessly. Build fearlessly. Ship something that matters."
+    role     = "AI & Machine Learning Student (B.Tech)"
+    focus    = ["RAG pipelines", "LLMs", "Generative AI", "System Design"]
+    building = "grounded AI apps over real-world data"
+    stack    = ["Python", "PyTorch", "FastAPI", "PostgreSQL + pgvector"]
+    motto    = "Learn relentlessly. Build fearlessly. Ship something that matters."
 ```
 
-- 🔭 &nbsp;Currently engineering **retrieval-augmented & generative AI systems**
-- 🌱 &nbsp;Deep-diving into **LLMs, Generative AI, and System Design**
-- 💬 &nbsp;Ask me about **Machine Learning, RAG, NLP, and AI Systems**
-- ⚡ &nbsp;I build **AI-powered applications with real-world impact**
-- 📫 &nbsp;Reach me at **pandiyanshanmugam3105@gmail.com**
+Reach me at **pandiyanshanmugam3105@gmail.com**.
 
 ---
 
-## 🛠️ Tech Arsenal
+## Tech
 
-<div align="center">
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="42" height="42" alt="Python" title="Python"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="42" height="42" alt="PyTorch" title="PyTorch"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="42" height="42" alt="TensorFlow" title="TensorFlow"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="42" height="42" alt="scikit-learn" title="scikit-learn"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="42" height="42" alt="FastAPI" title="FastAPI"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="42" height="42" alt="Docker" title="Docker"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="42" height="42" alt="Git" title="Git"/>
+</p>
 
-#### 🧠 AI / ML / Data
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-
-#### 🤖 Generative AI
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-007ACC?style=for-the-badge)
-![LLMs](https://img.shields.io/badge/LLMs-000000?style=for-the-badge)
-![NLP](https://img.shields.io/badge/NLP-4B8BBE?style=for-the-badge)
-
-#### 🌐 Backend & APIs
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-
-#### 🗄️ Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-00A67E?style=for-the-badge)
-![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=for-the-badge&logo=mongodb&logoColor=white)
-
-#### ⚙️ Tools & DevOps
-![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
+**AI / ML** — Python · PyTorch · TensorFlow · scikit-learn · NumPy · Pandas
+**Generative AI** — LangChain · RAG pipelines · LLMs · NLP
+**Backend &amp; Data** — FastAPI · Flask · PostgreSQL + pgvector · MongoDB
+**Tooling** — Docker · Git · Linux
 
 ---
 
-## 📊 GitHub Analytics
+## Featured Projects
 
-<div align="center">
+**[AgentMesh](https://github.com/S-PANDIYAN/AgentMesh)** — multi-agent orchestration framework
+Goal-driven iterative refinement with plugin architecture, weighted conflict
+resolution, and hybrid reasoning (deterministic + LLM). Python.
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=S-PANDIYAN&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=S-PANDIYAN&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" />
+**[Sentinel / PRAVAHA](https://github.com/S-PANDIYAN/Sentinel)** — AI crowd-management system
+Predictive stampede-risk analysis for high-density Indian venues (temples,
+festivals, railway stations) from video footage. 14-step perception pipeline.
 
-<img src="https://streak-stats.demolab.com?user=S-PANDIYAN&theme=tokyonight&hide_border=true" />
+**[FloatChat](https://float-chat-vyuga.vercel.app)** — RAG over Indian Ocean ARGO float data *(live demo)*
+Ask oceanographic questions in plain English, get grounded answers with
+citations. FastAPI · pgvector · React.
 
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=S-PANDIYAN&theme=react-dark&hide_border=true&area=true" width="100%" />
-</div>
-
----
-
-## 🏆 Profile Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=S-PANDIYAN&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1" />
-</div>
+**[ErrorSense](https://github.com/S-PANDIYAN/errorsense)** — VS Code extension
+Explains runtime and compile-time errors in plain language, with practical
+fix suggestions, right inside the editor.
 
 ---
 
-## 🐍 Watch My Contributions Get Eaten
+## Activity
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
-</div>
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=S-PANDIYAN&show_icons=true&hide_border=true&theme=transparent&count_private=true&include_all_commits=true" alt="GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=S-PANDIYAN&layout=compact&hide_border=true&theme=transparent&langs_count=8" alt="Top languages">
+</p>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/S-PANDIYAN/S-PANDIYAN/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake">
+</p>
 
-<div align="center">
-
-### 💡 *"The best way to predict the future is to build it — one model at a time."*
-
-</div>

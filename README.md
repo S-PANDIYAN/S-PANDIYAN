@@ -86,6 +86,6 @@ fix suggestions, right inside the editor.
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/S-PANDIYAN/S-PANDIYAN/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake">
+  <img src="https://raw.githubusercontent.com/S-PANDIYAN/S-PANDIYAN/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution snake">
 </p>
 

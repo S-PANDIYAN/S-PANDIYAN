@@ -34,7 +34,9 @@ THEMES = {
         text="#e6e9f2", sub="#22d3ee", muted="#7d889e", chip="#101a33",
         g1="#a78bfa", g2="#22d3ee", ok="#27c93f",
         shadow="#000000", shadow_op="0.45",
-        pal=["#0d4254", "#11607a", "#0e86a0", "#16abc4", "#3fc9e0", "#7adef0", "#aeeffb", "#e6fdff"],  # portrait tone ramp
+        # high-contrast ramp so the face reads on the dark panel:
+        # shadows stay deep, skin mid-tones land bright cyan, highlights near-white
+        pal=["#123c4c", "#15586e", "#1a7e97", "#25a8c2", "#4ecbe2", "#8ce4f2", "#c2f3fb", "#f0feff"],
     ),
     "light": dict(
         bg1="#ffffff", bg2="#eef2fb", grid="#e4e9f5",
@@ -44,6 +46,18 @@ THEMES = {
         g1="#7c3aed", g2="#0891b2", ok="#16a34a",
         shadow="#64748b", shadow_op="0.30",
         pal=["#cfe2ea", "#a6c9d6", "#79a9bc", "#4a92ab", "#20789a", "#0e5f7c", "#0a4257", "#072b3a"],  # light: dense = darkest
+    ),
+    # transparent hero: no card background — dark navy components float on the
+    # page, outer labels in GitHub-neutral gray, readable on BOTH themes
+    "hero": dict(
+        transparent=True,
+        edge="#57606a", panel="#0d1326", panel_stroke="#2b3854",
+        flow="#22d3ee", node="#0f1730", accent="#a78bfa",
+        text="#e6e9f2", sub="#0ea5c9", muted="#7d8590", chip="#101a33",
+        g1="#a78bfa", g2="#22d3ee", ok="#2da44e",
+        shadow="#000000", shadow_op="0.28",
+        tele="#8b98a8",
+        pal=["#123c4c", "#15586e", "#1a7e97", "#25a8c2", "#4ecbe2", "#8ce4f2", "#c2f3fb", "#f0feff"],
     ),
 }
 
@@ -196,8 +210,9 @@ def build(theme):
 
     # ---------- defs ----------
     a('<defs>')
-    a(f'<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">'
-      f'<stop offset="0" stop-color="{c["bg1"]}"/><stop offset="1" stop-color="{c["bg2"]}"/></linearGradient>')
+    if not c.get("transparent"):
+        a(f'<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">'
+          f'<stop offset="0" stop-color="{c["bg1"]}"/><stop offset="1" stop-color="{c["bg2"]}"/></linearGradient>')
     a(f'<linearGradient id="border" x1="0" y1="0" x2="1" y2="0">'
       f'<stop offset="0" stop-color="{c["g1"]}"/><stop offset="0.5" stop-color="{c["g2"]}"/>'
       f'<stop offset="1" stop-color="{c["g1"]}"/></linearGradient>')
@@ -224,17 +239,18 @@ def build(theme):
     a(typed("a5", 66, 468, 620, 6.4, 0.9))          # links
     a('</defs>')
 
-    # ---------- card ----------
-    a(f'<rect x="4" y="4" width="{W-8}" height="{H-8}" rx="20" fill="url(#bg)"/>')
-    a(f'<g stroke="{c["grid"]}" stroke-width="1">')
-    for gx in range(60, W, 60):
-        a(f'<line x1="{gx}" y1="6" x2="{gx}" y2="{H-6}"/>')
-    for gy in range(60, H, 60):
-        a(f'<line x1="6" y1="{gy}" x2="{W-6}" y2="{gy}"/>')
-    a('</g>')
-    a(f'<rect x="4" y="4" width="{W-8}" height="{H-8}" rx="20" fill="none" stroke="url(#border)" '
-      f'stroke-width="2" stroke-dasharray="14 10" stroke-opacity="0.9">'
-      f'<animate attributeName="stroke-dashoffset" from="0" to="-240" dur="6s" repeatCount="indefinite"/></rect>')
+    # ---------- card (skipped for the transparent hero variant) ----------
+    if not c.get("transparent"):
+        a(f'<rect x="4" y="4" width="{W-8}" height="{H-8}" rx="20" fill="url(#bg)"/>')
+        a(f'<g stroke="{c["grid"]}" stroke-width="1">')
+        for gx in range(60, W, 60):
+            a(f'<line x1="{gx}" y1="6" x2="{gx}" y2="{H-6}"/>')
+        for gy in range(60, H, 60):
+            a(f'<line x1="6" y1="{gy}" x2="{W-6}" y2="{gy}"/>')
+        a('</g>')
+        a(f'<rect x="4" y="4" width="{W-8}" height="{H-8}" rx="20" fill="none" stroke="url(#border)" '
+          f'stroke-width="2" stroke-dasharray="14 10" stroke-opacity="0.9">'
+          f'<animate attributeName="stroke-dashoffset" from="0" to="-240" dur="6s" repeatCount="indefinite"/></rect>')
 
     # ---------- query box ----------
     a(f'<rect x="40" y="28" width="380" height="40" rx="20" fill="{c["panel"]}" '
@@ -390,10 +406,11 @@ def build(theme):
       f'<animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/></rect>')
 
     # ---------- telemetry ----------
+    tele = c.get("tele", c["text"])
     a(f'<text x="40" y="554" class="mono" font-size="11" fill="{c["muted"]}">'
       f'retrieved: <tspan fill="{c["sub"]}">top-k chunks</tspan>&#160;&#160;&#183;&#160;&#160;'
-      f'latency: <tspan fill="{c["text"]}">42 ms</tspan>&#160;&#160;&#183;&#160;&#160;'
-      f'throughput: <tspan fill="{c["text"]}">87 tok/s</tspan>&#160;&#160;&#183;&#160;&#160;'
+      f'latency: <tspan fill="{tele}">42 ms</tspan>&#160;&#160;&#183;&#160;&#160;'
+      f'throughput: <tspan fill="{tele}">87 tok/s</tspan>&#160;&#160;&#183;&#160;&#160;'
       f'context: <tspan fill="{c["sub"]}">grounded &#10003;</tspan></text>')
     a(f'<text x="{W-40}" y="554" text-anchor="end" class="mono" font-size="11" fill="{c["muted"]}">github.com/S-PANDIYAN</text>')
 
@@ -401,7 +418,7 @@ def build(theme):
     return "\n".join(out)
 
 
-for theme in ("dark", "light"):
+for theme in ("dark", "light", "hero"):
     svg = build(theme)
     with open(f"{theme}.svg", "w", encoding="utf-8") as f:
         f.write(svg)
